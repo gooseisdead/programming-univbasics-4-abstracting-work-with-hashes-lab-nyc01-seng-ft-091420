@@ -8,7 +8,7 @@ end
 
 def update_counting_hash(hash, key)
   if hash[key] == true
-    return hash[key] + 1
+    hash[key] + 1
   else
     hash[key] = 1
   end
